@@ -1,0 +1,130 @@
+Prefix: "<dark_gray>[</dark_gray><yellow>TheseFeelings<dark_gray>]</dark_gray>"
+Cooldown: 15 #Seconds
+CooldownMsg: '<prefix> <gray>You can run this command in <yellow><time> <gray>seconds.'
+Feelings:
+  hug:
+    Sender: '<prefix> <gray>You give <green><bold><target> <reset><gray>a warm hug. <red>Awww <dark_red>❤'
+    Target: '<prefix> <green><bold><sender> <reset><gray>gives you a warm hug. <red>Awww <dark_red>❤'
+    Sound:
+      Name: entity.cat.purreow
+      Volume: 2.0
+      Pitch: 2.0
+  bite:
+    Sender: '<prefix> <gray>You sink your teeth into <red><bold><target><reset><gray>''s skin.'
+    Target: '<prefix> <red><bold><sender> <reset><gray>sinks their teeth into your skin.'
+    Sound:
+      Name: entity.zombie.attack_wooden_door
+      Volume: 2.0
+      Pitch: 2.0
+  murder:
+    Sender: '<prefix> <gray>You murder <red><bold><target> <reset><gray>and have no regrets.'
+    Target: '<prefix> <red><bold><sender> <reset><gray>just murdered you. Call an ambulance?'
+    Sound:
+      Name: entity.blaze.death
+      Volume: 1.0
+      Pitch: 0.7
+  dab:
+    Sender: '<prefix> <gray>You freshly dab on <green><bold><target><reset><gray>... <gray><italic>Got''em.'
+    Target: '<prefix> <green><bold><sender> <reset><gray>freshly dabs on you... <gray><italic>Got''em.'
+    Sound:
+      Name: entity.chicken.egg
+      Volume: 2.0
+      Pitch: 0.1
+  cry:
+    Sender: '<prefix> <gray>You cry on <aqua><bold><target><reset><gray>''s shoulder.'
+    Target: '<prefix> <aqua><bold><sender> <reset><gray>cries on your shoulder.'
+    Sound:
+      Name: entity.ghast.death
+      Volume: 1.0
+      Pitch: 0.8
+  facepalm:
+    Sender: '<prefix> <gray>You facepalm at what <yellow><bold><target> <reset><gray>just said.'
+    Target: '<prefix> <yellow><bold><sender> <reset><gray>facepalmed at what you just said.'
+    Sound:
+      Name: entity.villager.no
+      Volume: 2.0
+      Pitch: 1.0
+  highfive:
+    Sender: '<prefix> <gray>You give a mighty highfive to <green><bold><target><reset><gray>.'
+    Target: '<prefix> <green><bold><sender> <reset><gray>gives you a mighty highfive.'
+    Sound:
+      Name: entity.villager.yes
+      Volume: 2.0
+      Pitch: 1.0
+  kiss:
+    Sender: '<prefix> <gray>You give <green><bold><target> <reset><gray>a kiss. <red>Awww <dark_red>❤'
+    Target: '<prefix> <green><bold><sender> <reset><gray>gives you a kiss. <red>Awww <dark_red>❤'
+    Sound:
+      Name: entity.arrow.hit_player
+      Volume: 2.0
+      Pitch: 1.0
+  lick:
+    Sender: '<prefix> <gray>You lick <yellow><bold><target> <reset><gray>like ice-cream. <gold>Gross!'
+    Target: '<prefix> <yellow><bold><sender> <reset><gray>licks you like ice-cream. <gold>Gross!'
+    Sound:
+      Name: entity.generic.drink
+      Volume: 2.0
+      Pitch: 0.1
+  snuggle:
+    Sender: '<prefix> <gray>You snuggle <green><bold><target> <reset><gray>with love. <red>Awww <dark_red>❤'
+    Target: '<prefix> <green><bold><sender> <reset><gray>snuggles you with love. <red>Awww <dark_red>❤'
+    Sound:
+      Name: entity.cat.purr
+      Volume: 2.0
+      Pitch: 1.0
+  poke:
+    Sender: '<prefix> <gray>You poked <yellow><bold><target><reset><gray>. Maybe they''re on vacation?'
+    Target: '<prefix> <yellow><bold><sender> <reset><gray>has poked you. Anyone there?'
+    Sound:
+      Name: entity.chicken.egg
+      Volume: 2.0
+      Pitch: 0.1
+  slap:
+    Sender: '<prefix> <gray>You slap <red><bold><target> <reset><gray>with some spaghetti.'
+    Target: '<prefix> <red><bold><sender> <reset><gray>slaps you with some spaghetti.'
+    Sound:
+      Name: entity.blaze.hurt
+      Volume: 2.0
+      Pitch: 0.7
+  stab:
+    Sender: '<prefix> <gray>You stab <red><bold><target> <reset><gray>with a knife. Got Bandaids?'
+    Target: '<prefix> <red><bold><sender> <reset><gray>grabs a knife and stabs you. Got Bandaids?'
+    Sound:
+      Name: entity.generic.hurt
+      Volume: 2.0
+      Pitch: 0.7
+  pat:
+    Sender: '<prefix> <gray>You gently pat <green><bold><target><reset><gray>''s head for being good.'
+    Target: '<prefix> <green><bold><sender> <reset><gray>gently pats your head for being good.'
+    Sound:
+      Name: entity.wolf.pant
+      Volume: 2.0
+      Pitch: 0.8
+  stalk:
+    Sender: '<prefix> <gray>You carefully stalk <yellow><bold><target><reset><gray>, <gray><italic>Heh Heh.'
+    Target: '<prefix> <yellow><bold><sender> <reset><gray>stalks you from a nearby tree.'
+    Sound:
+      Name: ambient.cave
+      Volume: 2.0
+      Pitch: 2.0
+  boop:
+    Sender: '<prefix> <gray>You boop <green><bold><target><reset><gray> right on their nose!'
+    Target: '<prefix> <green><bold><sender> <reset><gray>boops you right on your nose!'
+    Sound:
+      Name: entity.chicken.egg
+      Volume: 2.0
+      Pitch: 2.0
+  tickle:
+    Sender: "<prefix> <gray>You tickled <green><bold><target><reset><gray>! <aqua>tee hee"
+    Target: "<prefix> <green><bold><sender> <reset><gray>has tickled <gray>you! <aqua>tee hee"
+    Sound:
+      Name: entity.experience_orb.pickup
+      Volume: 0.5
+      Pitch: 1.8
+  laugh:
+    Sender: "<gray>You <yellow>laugh <gray>at <green><bold><target><reset>! <aqua>HA HA"
+    Target: "<green><bold><sender> <reset><yellow>laughed <gray>at you! <aqua>HA HA"
+    Sound:
+      Name: entity.villager.accept1
+      Volume: 1
+      Pitch: 1.8

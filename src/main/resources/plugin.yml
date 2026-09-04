@@ -1,0 +1,9 @@
+name: TheseFeelings
+version: '${version}'
+main: me.shingas.theseFeelings.TheseFeelings
+api-version: '26.2'
+load: POSTWORLD
+folia-supported: true
+authors: [ Shingas ]
+description: Emote/feeling commands (hug, slap, poke, etc.) dynamically registered from config.
+depend: [ "PlaceholderAPI" ]
